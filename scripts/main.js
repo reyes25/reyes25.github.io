@@ -2,7 +2,7 @@ $(document).ready(function() {
 	
 	var height = $(window).height();
 	console.log('height:', height);
-	$('#left, #right, #center').css('height', height - 25); 
+	$('#left, #right, #center').css('height', height - 40); 
 	$('#view2').css('height', height);
 
 	$('#nav-beverages').click(function() {
