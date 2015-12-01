@@ -2,56 +2,86 @@
 <html lang='en-us'>
 <head>
 	<meta charset='utf-8' />
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic' rel='stylesheet' />
 	<link rel='stylesheet' href='style.css' />
 </head>	
 <body>
 
-<div id='banner'>
-	<h1>Noemma's Restaurant</h1>
-
-
-</div>
-<div id='main'>
-	<div id='container' class='cf'>
-		<div id='left'>
-			<div id='map'>
-				<img src='map.png' />
-			</div>
-			<div id='rating'>
-				<img src='4stars.png' />
-			</div>
-			<div id='info'>
-				<ul>
-					<li>
-						<h4>Address:</h4>
-						<p>234 Sesame Street</p>
-						<p>San Francisco CA, 90210</p>
-					</li>
-					<li>
-						<h4>Phone:</h4>
-						<p>(510) 912-2145</p>
-					</li>
-					<li>
-						<h4>Hours: <span>Open now</span></h4>
-						<p>Today: 10am - 10pm</p>
-					</li>
+<div id='view1'>
+	<div id='banner'>
+		<h1>Noemma's Restaurant</h1>
+	</div>
+	<div id='main'>
+		<div id='container' class='cf'>
+			<div id='left'>
+				<ul class='nav'>
+					<li>Menu</li>
+					<li>Gallery</li>
+					<li id='nav-beverages'>Beverages</li>
 				</ul>
+			</div>			
+			<div id='center'>
+				<img src='images/food-main.jpg' />
+				<div id='center-footer'>
+					<p>If you are searching for a quality, authentic, savory food experience then look no further!
+					You are sure to leave pleased and satisfied!</p>
+					<h4>- Chef Bouyardee</h4>
+				</div>
 			</div>
-		</div>
-		<div id='center'>
-			<img src='food-main.jpg' />
-			<div id='center-footer'>
-				<p>If you are searching for a quality, authentic, savory food experience then look no further!
-				You are sure to leave pleased and satisfied!</p>
-				<h4>- Chef Bouyardee</h4>
+			<div id='right'>
+				<div id='map'>
+					<img src='images/map.png' />
+				</div>
+				<div id='rating'>
+					<img src='images/4stars.png' />
+				</div>
+				<div id='info'>
+					<ul>
+						<li>
+							<h4>Address:</h4>
+							<p>234 Sesame Street</p>
+							<p>San Francisco CA, 90210</p>
+						</li>
+						<li>
+							<h4>Phone:</h4>
+							<p>(510) 912-2145</p>
+						</li>
+						<li>
+							<h4>Hours: <span>Open now</span></h4>
+							<p>Today: 10am - 10pm</p>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div id='right'>
-
 		</div>
 	</div>
 </div>
 
+<div id='view2'>
+	<div id='beverages'>
+		<div id='listing'>
+			<ul>
+				<li><h1>Beverages</h1></li>
+				<li>
+					<ul class='menu-listing'>
+						<li>Italian Soda <span>19</span></li>
+						<li>Apple Martini <span>11</span></li>
+						<li>Dirty Martini <span>13</span></li>
+						<li>Long Island Ice Tea <span>12</span></li>
+						<li>Pina Colada <span>10</span></li>
+						<li>Dirty Diana <span>12</span></li>
+						<li>Lemon Drop <span>20</span></li>
+						<li>Manhattan <span>22</span></li>
+						<li>Gin and Tonic <span>18</span></li>
+						<li>Greenpoint <span>23</span></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script src='scripts/main.js'></script>
 </body>
 </html>
