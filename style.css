@@ -23,7 +23,7 @@
 
 #left, #right, #center {
 	float:left;
-	height:500px;
+	/*min-height:500px;*/
 	background-color: rgba(0,0,0,0.2);
 }
 
@@ -139,7 +139,7 @@ body {
 
 #view1 {
 	background-image: url('images/baybridge.jpg');
-	background-size: 100% 600px;
+	background-size: 100% 100%;
 }
 
 #view2 {
